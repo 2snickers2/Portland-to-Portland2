@@ -3,10 +3,11 @@
     height: 44px;
     background-image: url(../../../image/logo.png);
     background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center center;
 }
 @media screen and (max-width: 320px) {
     .header__logo {
        width: 156px;
-       height: 36px;
     }
 }
