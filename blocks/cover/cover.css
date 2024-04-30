@@ -1,4 +1,4 @@
-.cover{
+.cover {
     color: #FFFFFF;
     position: relative;
     display: flex;
@@ -7,23 +7,27 @@
     align-items: center;
     text-align: center;
     cursor: pointer;
+    width: 100%;
 }
-.cover:hover{
+
+.cover:hover {
     opacity: 1;
 }
+
 @media screen and (max-width: 1024px) {
     .cover {
-       width: 1024px;
+        max-width: 1024px; 
     }
 }
 @media screen and (max-width: 768px) {
     .cover {
-       width: 768px;
+        width: 100%;
+        max-width: 768px; 
     }
 }
 @media screen and (max-width: 320px) {
     .cover {
-       width: 320px;
+        width: 100%;
+        max-width: 320px; 
     }
 }
-

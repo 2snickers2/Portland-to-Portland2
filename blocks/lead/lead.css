@@ -1,25 +1,30 @@
 .lead{
-    position: relative;
-    width: 984px;
-    top: 100px;
+    padding-top: 90px;
+    max-width: 984px;
+    width: 100%;
     color: #FFF;
     margin: 0 auto;
     
 }
 @media screen and (max-width: 1024px) {
     .lead {
-        width: 928px;
+        padding-top: 80px; 
+        max-width: 928px; 
+        width: 100%; 
     }
 }
 @media screen and (max-width: 768px) {
     .lead {
-        width: 768px;
+        padding-top: 70px;
+        max-width: 768px; 
+        width: 100%; 
     }
 }
 @media screen and (max-width: 320px) {
     .lead {
        width: 320px;
        margin: 0;
+       width: 100%;
     }
 }
 

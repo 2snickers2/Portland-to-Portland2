@@ -1,6 +1,16 @@
 .place__all-paragraphs{
     font-size: 18px;
-    font-weight: 300;
-    line-height: 29.34px;
+    line-height: 29.34pxpx;
     text-align: left;
+    margin: 30px 0 0 15px;
+}
+@media screen and (max-width: 1024px) {
+    .place__all-paragraphs {
+        margin: 30px 0 0 10px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .place__all-paragraphs{
+        line-height: 26.08px;
+    }
 }
