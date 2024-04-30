@@ -2,6 +2,7 @@
     color: #FFFFFF;
     transition: all 0.5s ease;
     cursor: pointer;
+    letter-spacing: 1px;
 }
 .place__website__link:hover{
     opacity: 0.5;
