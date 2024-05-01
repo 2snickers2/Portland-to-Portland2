@@ -7,3 +7,8 @@
     text-align: left;
     margin-bottom: 10px;
 }
+@media screen and  (max-width: 767px){
+    .place__website__url-heading{
+      width: 50%;
+    }
+  }

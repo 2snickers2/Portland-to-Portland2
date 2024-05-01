@@ -2,21 +2,26 @@
     max-width: 984px; 
     width: 100%;
     padding-top: 50px;
+    margin-left: 148px;
 }
-  @media screen and (min-width: 769px) and (max-width: 1024px){
+  @media screen and (max-width: 1279px) {
     .all-places{
-      width: 928px;
+      max-width: 928px;
+      width: 100%;
+      margin-left: 48px;
     }
   }
-  
-  @media screen and (min-width: 321px) and (max-width: 768px){
+  @media screen and   (max-width: 1023px){
     .all-places{
-      width: 720px;
+      max-width: 720px;
+      width: 100%;
+      margin-left: 24px;
     }
   }
-  
-  @media screen and (max-width: 320px){
+  @media screen and  (max-width: 767px){
     .all-places{
+        margin: 0;
       width: 320px;
+      width: 100%;
     }
   }

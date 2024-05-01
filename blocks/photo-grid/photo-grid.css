@@ -26,6 +26,6 @@
     .photo-grid {
        width: 288px;
        grid-template-columns: 1fr;
-       
+       width: 100%;
     }
 }

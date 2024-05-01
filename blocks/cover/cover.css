@@ -7,9 +7,9 @@
     align-items: center;
     text-align: center;
     cursor: pointer;
+    max-width: 1184px;
     width: 100%;
 }
-
 .cover:hover {
     opacity: 1;
 }

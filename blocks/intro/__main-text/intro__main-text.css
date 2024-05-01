@@ -4,11 +4,11 @@
     line-height: 26.08px;
     padding-top: 30px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .intro__main-text {
        font-size: 16px;
        line-height: 28.06px;
-       width: 100%;
+       width: 90%;
     }
 }
 
