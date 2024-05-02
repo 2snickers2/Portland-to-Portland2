@@ -2,15 +2,19 @@
     font-size: 18px;
     line-height: 29.34pxpx;
     text-align: left;
+    margin: 30px 0 0 20px;
 }
+
 @media screen and (max-width: 1279px) {
     .place__all-paragraphs {
         max-width: 456px;
+        margin: 30px 0 0 10px;
     }
 }
 @media screen and(max-width: 1023px) {
     .place__all-paragraphs{
         max-width: 352px;
+        line-height: 26.08px;
     }
 }
 @media screen and  (max-width: 767px) {

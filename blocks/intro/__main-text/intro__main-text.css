@@ -2,13 +2,18 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26.08px;
-    padding-top: 30px;
+    padding-top: 30px ;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 728px) {
+    .intro__main-text {
+        width: 720px;
+    }
+}
+@media screen and (max-width: 320px) {
     .intro__main-text {
        font-size: 16px;
        line-height: 28.06px;
-       width: 90%;
+       width: 100%;
     }
 }
 

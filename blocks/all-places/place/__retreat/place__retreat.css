@@ -1,0 +1,8 @@
+.place__retreat{
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 1279px) {
+    .place__retreat{
+        margin-bottom: 30px;
+    }
+}

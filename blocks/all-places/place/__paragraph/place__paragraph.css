@@ -1,7 +1,7 @@
 .place__paragraph {
     padding-bottom: 23px;
     line-height: 29.34px;
-    flex-shrink: 0; /* Забороняє зменшення тексту */
+    flex-shrink: 0; 
         max-width: 100%; 
 }
 

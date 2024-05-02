@@ -4,8 +4,7 @@
     line-height: 22px;
     width: 320px;
     position: absolute;
-    z-index: 1;
-    margin-top: 15%;
+    margin-top: 85px;
 }
 @media screen and (max-width: 320px) {
     .cover__subtitle {

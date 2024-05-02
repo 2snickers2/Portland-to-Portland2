@@ -7,16 +7,14 @@
     align-items: center;
     text-align: center;
     cursor: pointer;
-    max-width: 1184px;
-    width: 100%;
 }
-.cover:hover {
+.cover:hover{
     opacity: 1;
 }
-
 @media screen and (max-width: 1024px) {
     .cover {
         max-width: 1024px; 
+        width: 100%;
     }
 }
 @media screen and (max-width: 768px) {
