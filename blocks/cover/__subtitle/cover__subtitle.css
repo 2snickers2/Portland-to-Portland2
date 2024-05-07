@@ -5,6 +5,27 @@
     width: 320px;
     position: absolute;
     margin-top: 85px;
+    z-index: 1;
+}
+@media screen and (max-width: 1279px)  {
+    .cover__subtitle::before{
+        content: "The Main Street of America from ";
+        display: block;
+    }
+    .cover__subtitle::after{
+        content: "Santa Monica, Cal. to Chicago, Ill.";
+        display: block;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .cover__subtitle::before{
+        content: "The Main Street of America from ";
+        display: block;
+    }
+    .cover__subtitle::after{
+        content: "Santa Monica, Cal. to Chicago, Ill.";
+        display: block;
+    }
 }
 @media screen and (max-width: 320px) {
     .cover__subtitle {
@@ -12,6 +33,14 @@
        font-size: 14px;
        line-height: 16px;
        margin-top: 30%;
+    }
+    .cover__subtitle::before{
+        content: "The Main Street of America ";
+        display: block;
+    }
+    .cover__subtitle::after{
+        content: "from Santa Monica, Cal. to Chicago, Ill.";
+        display: block;
     }
 }
 

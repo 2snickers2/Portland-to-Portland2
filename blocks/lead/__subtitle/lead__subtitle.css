@@ -7,12 +7,50 @@
     padding-top: 30px;
     margin: 0 auto;
 }
+.lead__subtitle::before{
+    content: "An epic bicycle journey from Portland, ME. ";
+    display: block;
+}
+.lead__subtitle::after{
+    content: "to Portland, OR";
+    display: block;
+ }
+
+@media screen and  (max-width: 1279px)  {
+    .lead__subtitle::before{
+        content: "An epic bicycle journey from Portland, ME. ";
+        display: block;
+    }
+    .lead__subtitle::after{
+        content: "to Portland, OR";
+        display: block;
+    }
+}
+@media screen and  (max-width: 1023px)  {
+    .lead__subtitle::before{
+        content: "An epic bicycle journey from Portland, ME. ";
+        display: block;
+    }
+    .lead__subtitle::after{
+        content: "to Portland, OR";
+        display: block;
+    }
+}
 @media screen and (max-width: 767px) {
     .lead__subtitle {
        width: 288px;
        font-size: 16px;
        line-height: 20px;
        width: 100%;
+       padding-top: 15px;
+    }
+    .lead__subtitle::before{
+        content: "An epic bicycle journey ";
+        display: block;
+    }
+    .lead__subtitle::after{
+        content: "from Portland, ME. to Portland, OR";
+        display: block;
     }
 }
 

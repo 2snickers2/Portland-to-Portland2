@@ -1,6 +1,6 @@
 .place__all-paragraphs{
     font-size: 18px;
-    line-height: 29.34pxpx;
+    line-height: 29.34px;
     text-align: left;
     margin: 30px 0 0 20px;
 }
@@ -11,14 +11,15 @@
         margin: 30px 0 0 10px;
     }
 }
-@media screen and(max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .place__all-paragraphs{
         max-width: 352px;
-        line-height: 26.08px;
+        margin: 13px 0 0 5px;
     }
 }
 @media screen and  (max-width: 767px) {
     .place__all-paragraphs{
         max-width: 288px;
+        margin: 13px 0 0 16px;
     }
 }
