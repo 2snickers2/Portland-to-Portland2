@@ -8,19 +8,19 @@
     z-index: 1;
     top: 282px;
 }
-@media screen and (max-width: 1024px)  {
+@media screen and (max-width: 1279px)  {
     .cover__title{
         top: 235px;
     }
 }
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 1023px)  {
     .cover__title{
-        top: 185px;
+        top: 160px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover__title {
-       width: 288px;
+       max-width: 288px;
        font-size: 32px;
        line-height: 35px;
        width: 100%;

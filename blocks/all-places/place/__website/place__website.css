@@ -16,7 +16,7 @@
 }
 @media screen and (max-width: 767px) {
     .place__website {
-       width: 288px;
+       max-width: 288px;
        order: -1;
        margin-left: 16px;
        margin-top: 5px;
