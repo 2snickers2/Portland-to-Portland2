@@ -2,7 +2,6 @@
     display: inline-block;
     list-style-type: none; 
     font-size: 24px;
-    width: 90%;
     line-height: 28px;
     text-align: right;
     margin-top: 13px;
@@ -10,6 +9,7 @@
 @media screen and  (max-width: 767px)  {
     .header__lang-links {
        font-size: 18px;
+       width: 45%;
     }
 }
 

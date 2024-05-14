@@ -1,10 +1,10 @@
 .header__logo{
     width: 190px;
     height: 44px;
-    background-image: url(../../../image/logo.png);
+    background-image: url(../../../image/header__logo/__image.png);
     background-repeat: no-repeat;
     background-size: contain; 
-    background-position: center center;
+    background-position: center;
 }
 @media screen and (max-width: 320px) {
     .header__logo {
